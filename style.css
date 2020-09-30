@@ -1,0 +1,44 @@
+body{
+	background-color: #D2691E;
+}
+#cookie{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	font-size: 20px;
+	background-color: #8B4513;
+	border-width: 0;
+
+}
+#cookie:hover{
+	background-color: #a35015;
+}
+#cookie:active{
+	background-color: #803c0b;
+}
+#cookie-container{
+	padding: 50px;
+}
+.PurchaseButton{
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	background-color:#A0522D ; 
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.purchimg{
+	height: 50px;
+	width: 50px;
+	border: 2px solid maroon;
+	margin-top: 5px;
+}
+.PurchaseButton span{
+	display: flex;
+	float: right;
+	margin: 5px;
+}
+#wrapper{
+	position: absolute;
+	left: 33%;
+}
